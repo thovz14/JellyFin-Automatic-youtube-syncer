@@ -55,13 +55,13 @@ Open the script in Notepad and change the following values at the top:
 | Variable | Description | Example |
 |---|---|---|
 | `LOCAL` | Local folder where videos are temporarily saved | `C:\Users\<yourname>\Videos\JellyFin` |
-| `SERVER_USER` | SFTP username on your server | `thomas` |
+| `SERVER_USER` | SFTP username on your server | `YourUserName` |
 | `SERVER_PASS` | SFTP password on your server | `yourpassword` |
-| `SERVER_HOST` | IP address of your server | `192.168.1.100` |
+| `SERVER_HOST` | IP address of your server | `192.168.x.x` |
 | `REMOTE_BASE` | Remote folder path on the server | `/Youtube/` |
-| `JF_HOST` | Jellyfin URL with port | `http://192.168.1.100:8096` |
+| `JF_HOST` | Jellyfin URL with port | `http://192.168.x.x:8096` |
 | `JF_API_KEY` | Your Jellyfin API key | `abc123...` |
-| `CHANNELS` | Space-separated YouTube handles (without @) | `CheapPickle GoofyGang` |
+| `CHANNELS` | Space-separated YouTube handles (without @) | `YourYoutubeChannels` |
 
 ---
 
